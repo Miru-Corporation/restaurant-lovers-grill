@@ -111,4 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* Year in footer */
   document.querySelectorAll('.year').forEach(y => y.textContent = new Date().getFullYear());
+
+  /* Lucide SVG icons */
+  if (typeof lucide !== 'undefined') lucide.createIcons();
 });
